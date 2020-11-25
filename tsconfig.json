@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "ES2015",
+        "allowJs": true,
+        "strict": true,
+        "alwaysStrict": true,
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "moduleResolution": "Node",
+        "esModuleInterop": true,
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["./src/*"],
+            "~/*": ["./*"]
+        }
+    },
+    "include": ["src/**/*"]
+}
